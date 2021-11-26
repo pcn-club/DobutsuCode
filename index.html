@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<body>
+<h1>動物コード</h1>
+2進法: <span id=n2></span><br>
+7進法: <span id=n7></span><br>
+16進法: <span id=n16></span><br>
+10進法: <span id=n10></span><br>
+100進法(動物コード): <span id=dobutsu></span><br>
+<br>
+<input type=checkbox id=boost>boost!
+
+<script type="module">
+import { DobutsuCode } from "https://pcn-club.github.io/DobutsuCode/DobutsuCode.js";
+
+let n = 0;
+const run = () => {
+  n2.textContent = n.toString(2);
+  n7.textContent = n.toString(7);
+  n10.textContent = n;
+  n16.textContent = n.toString(16);
+  dobutsu.textContent = DobutsuCode.encode(n);
+  n++;
+  setTimeout(run, boost.checked ? 10 : 500);
+};
+run();
+</script>
