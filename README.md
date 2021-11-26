@@ -2,6 +2,10 @@
 
 動物100種類で100進法！
 
+## デモアプリ
+
+- [動物コード デモ](https://pcn-club.github.io/DobutsuCode/)
+
 ## オープンデータ
 
 - [動物100種CSV](dobutsucode.csv)
@@ -9,7 +13,7 @@
 
 ## テストコード
 
-```
+```js
 import * as t from "https://deno.land/std/testing/asserts.ts";
 import { DobutsuCode } from "./DobutsuCode.js";
 
