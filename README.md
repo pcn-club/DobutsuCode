@@ -5,6 +5,7 @@
 ## デモアプリ
 
 - [動物コード デモ](https://pcn-club.github.io/DobutsuCode/)
+- [動物コード 時計](https://pcn-club.github.io/DobutsuCode/clock.html)
 
 ## オープンデータ
 
