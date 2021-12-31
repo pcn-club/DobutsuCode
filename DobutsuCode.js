@@ -46,6 +46,9 @@ class DobutsuCode {
     }
     return minus ? -res : res;
   }
+  static getCodes() {
+    return DOBUTSU_CODE;
+  }
 }
 
 export { DobutsuCode };

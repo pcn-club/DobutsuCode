@@ -39,3 +39,6 @@ Deno.test("encode_sp", () => {
   t.assertEquals(DobutsuCode.encode(null), "アイアイ");
   t.assertEquals(DobutsuCode.encode("1"), "アザラシ");
 });
+Deno.test("get codes", () => {
+  t.assertEquals(DobutsuCode.getCodes().length, 100);
+});
