@@ -16,7 +16,7 @@
 
 ```js
 import * as t from "https://deno.land/std/testing/asserts.ts";
-import { DobutsuCode } from "./DobutsuCode.js";
+import { DobutsuCode } from "https://pcn-club.github.io/DobutsuCode/DobutsuCode.js";
 
 Deno.test("encode", () => {
   t.assertEquals(DobutsuCode.encode(0), "アイアイ");
